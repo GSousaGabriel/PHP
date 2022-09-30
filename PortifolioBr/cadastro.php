@@ -1,3 +1,7 @@
+<?php
+    require "validaAcesso.php"
+?>
+
 <html lang="pt/br">
 
 <head>

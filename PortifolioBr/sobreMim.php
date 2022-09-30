@@ -1,5 +1,5 @@
 <?php
-    require '../../validacoesPortBr/validaAcesso.php';
+    require "validaAcesso.php"
 ?>
 
 <html lang="pt/br">
