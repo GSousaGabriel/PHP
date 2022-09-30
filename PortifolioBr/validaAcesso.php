@@ -1,0 +1,3 @@
+<?
+    require '../../validacoesPortBr/validaAcesso.php';
+?>
