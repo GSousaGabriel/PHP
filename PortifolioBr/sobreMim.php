@@ -1,5 +1,5 @@
 <?php
-    require "validaAcesso.php"
+require "validaAcesso.php"
 ?>
 
 <html lang="pt/br">
@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg-info">
     <header class="page-header-bg bg-dark">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -42,6 +42,103 @@
             </nav>
         </div>
     </header>
+    <main class="bg-info">
+        <section>
+            <div>
+                <section>
+                    <div class="container text-light pt-5">
+                        <div class="typing-demo">
+                            <h1 class="typing-demo">Resumo</h1>
+                        </div>
+                        <hr>
+                        <div class="row alert alert-info mt-5" role="alert">
+                            <div class="container">
+                                <div class="row mx-auto">
+                                    <p>O autor deste site &eacute; chamado Gabriel Gon&ccedil;alves de Sousa, 22
+                                        anos.</p>
+                                </div>
+                                <div class="row mx-auto">
+                                    <p>Come&ccedil;ou sua carreira em T.I em 2020 como suporte t&eacute;cnico na
+                                        AOKI
+                                        Sistemas,
+                                        empresa de ERP, onde p&ocirc;de adquirir uma maior experi&ecirc;ncia com
+                                        atendimento
+                                        ao
+                                        cliente e habilidades de conversa&ccedil;&atilde;o e, atualmente,
+                                        est&aacute;
+                                        estagiando
+                                        como desenvolvedor no instituto SiDi, onde p&ocirc;de adquirir uma maior
+                                        experi&ecirc;ncia
+                                        com linguagens de programa&ccedil;&atilde;o.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container alert alert-info mt-5" role="alert">
+                        <div class="row mx-auto">
+                            <p>Este projeto apresentar&aacute; um pouco seus conhecimentos em desenvolvimento web. Para outras compet&ecirc;ncias foi feito diferentes projetos para melhor
+                                organiza&ccedil;&atilde;o e
+                                visualiza&ccedil;&atilde;o partilhada das informa&ccedil;&otilde;es.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="d-none d-xl-block">
+                    <div class="container-fluid mt-5">
+                        <div class="row justify-content-center">
+                            <a class="text-dark col-2 mx-4" href="sobreMim.php">
+                                <div class="card alert-info" style="width: 18rem;">
+                                    <img class="card-img-top" src="sobreMim.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ver mais informa&ccedil;&otilde;es sobre Gabriel.
+                                        </h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-dark col-2 me-4" href="experiencias.php">
+                                <div class="card alert-info" style="width: 18rem;">
+                                    <img class="card-img-top" src="sobreMim.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ver mais informa&ccedil;&otilde;es sobre suas
+                                            experi&ecirc;ncias.</h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-dark col-2 me-4" href="habilidades.php">
+                                <div class="card alert-info" style="width: 18rem;">
+                                    <img class="card-img-top" src="sobreMim.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ver mais informa&ccedil;&otilde;es sobre suas
+                                            habilidades.
+                                        </h5>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="text-dark col-2 me-4" href="contato.php">
+                                <div class="card alert-info" style="width: 18rem;">
+                                    <img class="card-img-top" src="sobreMim.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ver mais informa&ccedil;&otilde;es sobre como o
+                                            contatar.
+                                        </h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                </section>
+            </div>
+        </section>
+    </main>
 </body>
+<footer>
+    <div class="container">
+        <div class="row fixed-bottom">
+            <div class="col-12 bg-dark text-light text-center">
+                <em>Copyright All Rights Reserved © 2022 | Desenvolvido por Gabriel Sousa</em>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>

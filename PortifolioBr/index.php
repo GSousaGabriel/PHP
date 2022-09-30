@@ -30,6 +30,7 @@
                             <div class="container">
                                 <div class="row">
                                     <button type="submit" class="btn btn-primary mb-3 ms-3 col-2">Acessar</button>
+                                    <a href="acessoSemAutenticacao.php" class="btn btn-primary mb-3 ms-3 col-2">Acessar sem autentica&ccedil;&atilde;o</a>
                                     <a href="cadastro.php" class="btn btn-primary col-2 ms-auto mt-1 mb-3 me-2 text-light">Cadastre-se</a>
                                 </div>
                             </div>

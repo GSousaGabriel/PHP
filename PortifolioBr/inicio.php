@@ -101,13 +101,13 @@
                 <section>
                     <div class="container alert alert-info mt-5" role="alert">
                         <div class="row mx-auto">
-                            <p>Este projeto apresentar&aacute; um pouco os meus conhecimentos em desenvolvimento web. Para outras compet&ecirc;ncias foi feito diferentes arquivos para melhor
+                            <p>Este projeto apresentar&aacute; um pouco seus conhecimentos em desenvolvimento web. Para outras compet&ecirc;ncias foi feito diferentes projetos para melhor
                                 organiza&ccedil;&atilde;o e
                                 visualiza&ccedil;&atilde;o partilhada das informa&ccedil;&otilde;es.</p>
                         </div>
                     </div>
                 </section>
-                <section>
+                <section class="d-none d-xl-block">
                     <div class="container-fluid mt-5">
                         <div class="row justify-content-center">
                             <a class="text-dark col-2 mx-4" href="sobreMim.php">
