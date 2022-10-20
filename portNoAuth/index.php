@@ -1,11 +1,7 @@
-<?php
-    require "validaAcesso.php"
-?>
-
 <html lang="pt/br">
 
 <head>
-    <title>Cadastro</title>
+    <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet/less" type="text/css" href="css/login.css" />
@@ -20,32 +16,21 @@
     <section>
         <div class="d-flex justify-content-center text-light">
             <div class="row horizontal-center">
-                <form action="novoCadastro.php" method="POST">
+                <form>
                     <div class="container-fluid">
                         <div class="row col customBackground">
                             <div class="mb-3">
-                                <label for="user" class="form-label col-form-label-lg">Usu&aacute;rio</label>
-                                <input type="text" class="form-control opacityControl" id="user" name="user" aria-describedby="emailHelp">
+                                <label for="user" class="form-label col-form-label-lg">User</label>
+                                <input type="text" class="form-control opacityControl" id="user" name="user" aria-describedby="emailHelp" readonly>
                             </div>
                             <div class="mb-3">
-                                <label for="pass" class="form-label col-form-label-lg">Senha</label>
-                                <input type="password" class="form-control opacityControl" id="pass" name="pass">
+                                <label for="pass" class="form-label col-form-label-lg">Password</label>
+                                <input type="password" class="form-control opacityControl" id="pass" name="pass" readonly>
                             </div>
                             <div class="container">
                                 <div class="row">
-                                    <button type="submit" class="btn btn-primary mb-3 ms-3 col-2">Cadastrar</button>
+                                    <a href="loginNoAuth.php" class="btn btn-primary mb-3 ms-3 col-2">Login</a>
                                 </div>
-                                <?
-                                if (isset($_GET['cadastro']) && isset($_GET['cadastro'])) {
-                                ?>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col text-danger">
-                                                <label class="form-label col-form-label-lg">Erro ao cadastro seu usu&aacute;rio, tente novamente!</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <?  }     ?>
                             </div>
                         </div>
                     </div>

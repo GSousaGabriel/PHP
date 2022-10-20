@@ -1,11 +1,11 @@
 <?php
-    require "validaAcesso.php"
+require "validateAccess.php"
 ?>
 
 <html lang="pt/br">
 
 <head>
-    <title>Portifolio Brasileiro</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -18,7 +18,7 @@
     <header class="page-header-bg bg-dark">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="experiencia.php">Experi&ecirc;ncia</a>
+                <a class="navbar-brand" href="experience.php">Experience</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuHeader" aria-controls="menuHeader" aria-expanded="false" aria-label="Mostrar Menus">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -26,18 +26,21 @@
                 <div class="collapse navbar-collapse" id="menuHeader">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="inicio.php">Inicio</a>
+                            <a class="nav-link" href="home.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="sobreMim.php">Sobre mim</a>
+                            <a class="nav-link" href="aboutMe.php">About me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="habilidades.php">Habilidades</a>
+                            <a class="nav-link" href="knowledge.php">Knowledge</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contato.php">Contato</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                     </ul>
+                    <div class="col">
+                        <a class="navbar-brand float-end" href="logoff.php">Logout</a>
+                    </div>
                 </div>
             </nav>
         </div>
