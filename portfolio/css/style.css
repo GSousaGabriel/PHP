@@ -1,0 +1,12 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: gray;
+    background-color: gray;
+}
