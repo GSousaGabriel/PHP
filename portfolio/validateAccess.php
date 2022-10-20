@@ -1,3 +1,0 @@
-<?
-    require '../../validations/validateAccess.php';
-?>
